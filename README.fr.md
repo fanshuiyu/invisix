@@ -106,11 +106,11 @@ Vous avez besoin d'un environnement professionnel, fiable et sécurisé.
 
 ### Étape 1 : Flashez l'Image 💾
 
-1. Téléchargez **`invisix.img`** sur [SourceForge](https://sourceforge.net/projects/invisix/files/release1/invisix-distro.img/download).
+1. Téléchargez **`invisix-distro.img`** sur [SourceForge](https://sourceforge.net/projects/invisix/files/release1/invisix-distro.img/download).
 2. Téléchargez et installez [**Raspberry Pi Imager**](https://www.raspberrypi.com/software/).
 3. Ouvrez le logiciel et sélectionnez :
    - **Appareil** : Raspberry Pi 4
-   - **OS** : "Use Custom" (Personnalisé) → sélectionnez `invisix.img`
+   - **OS** : "Use Custom" (Personnalisé) → sélectionnez `invisix-distro.img`
    - **Stockage** : Votre carte SD
 4. Cliquez sur **Suivant** → **"NON"** pour modifier les paramètres (déjà configuré) → **Écrire**.
 
